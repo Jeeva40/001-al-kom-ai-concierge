@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Al-Kom | Fine Dining &amp; AI Concierge</title>
+	<meta name="description" content="Al-Kom is a premium fine-dining restaurant offering a curated menu, warm hospitality, and an AI concierge for reservations and menu guidance.">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<!-- ============ SKIP LINK ============ -->
+	<a class="skip-link" href="#main-content">Skip to main content</a>
+
+	<!-- ============ STICKY HEADER ============ -->
+	<header class="site-header">
+		<div class="logo">
+			<a href="#home" aria-label="Al-Kom home">
+				<span class="logo-text">AL-KOM</span>
+			</a>
+		</div>
+
+		<nav class="main-nav" aria-label="Primary navigation">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#ai-concierge">AI Concierge</a></li>
+				<li><a href="#reviews">Reviews</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+
+		<div class="header-actions">
+			<a href="#contact" class="button button-primary" role="button">Reserve Table</a>
+		</div>
+	</header>
+
+	<main id="main-content">
+
+		<!-- ============ HERO SECTION ============ -->
+		<section id="home" class="hero" aria-labelledby="hero-heading">
+			<div class="hero-content">
+				<h1 id="hero-heading">Al-Kom</h1>
+				<p class="tagline">An Ode to Levantine Fire and Flavor</p>
+				<p class="hero-description">
+					Nestled in the heart of the city, Al-Kom brings together generations-old
+					Levantine recipes and modern culinary technique. Every plate is prepared
+					with charcoal-grilled meats, hand-milled spices, and produce sourced from
+					local family farms, served in a warm, candlelit dining room.
+				</p>
+				<div class="hero-actions">
+					<a href="#contact" class="button button-primary" role="button">Reserve Table</a>
+					<a href="#ai-concierge" class="button button-secondary" role="button">Chat with Al-Kom AI</a>
+				</div>
+			</div>
+			<figure class="hero-image">
+				<img src="assets/hero-placeholder.jpg" alt="Candlelit dining room at Al-Kom with a charcoal grill visible in the open kitchen">
+				<figcaption>The main dining room at Al-Kom, Downtown</figcaption>
+			</figure>
+		</section>
+
+		<!-- ============ ABOUT SECTION ============ -->
+		<section id="about" class="about" aria-labelledby="about-heading">
+			<h2 id="about-heading">Our Story</h2>
+
+			<article class="about-story">
+				<h3>Three Generations, One Fire</h3>
+				<p>
+					Al-Kom began in 1978 as a small charcoal grill run by Nabil Haddad in
+					Amman, Jordan. His grandson, Chef Yousef Haddad, brought the family
+					recipes abroad in 2011, refining them alongside classically trained
+					chefs while keeping the wood-fired grill at the center of every dish.
+					Today, Al-Kom seats sixty guests across two dining rooms and a private
+					courtyard, and every recipe on the menu traces back to that original
+					grill in Amman.
+				</p>
+			</article>
+
+			<article class="about-mission">
+				<h3>Our Mission</h3>
+				<p>
+					To honor Levantine hospitality by pairing time-tested recipes with
+					attentive, modern service, so every guest leaves feeling like family.
+				</p>
+			</article>
+
+			<article class="about-values">
+				<h3>What We Stand For</h3>
+				<ul>
+					<li><strong>Provenance:</strong> Meat, olive oil, and produce sourced from named local farms.</li>
+					<li><strong>Craft:</strong> Spice blends milled in-house daily; bread baked to order.</li>
+					<li><strong>Hospitality:</strong> Every guest greeted by name on return visits.</li>
+					<li><strong>Accessibility:</strong> Clear dietary guidance for every dish, supported by our AI concierge.</li>
+				</ul>
+			</article>
+		</section>
+
+		<!-- ============ FEATURED MENU SECTION ============ -->
+		<section id="menu" class="featured-menu" aria-labelledby="menu-heading">
+			<h2 id="menu-heading">Featured Dishes</h2>
+			<p class="section-intro">A selection of guest favorites from our charcoal grill and mezze kitchen.</p>
+
+			<ul class="menu-grid">
+				<li class="menu-card">
+					<article aria-labelledby="dish-1-name">
+						<img src="assets/dish-mixed-grill.jpg" alt="Charcoal-grilled mixed platter of lamb kofta, chicken shish taouk, and beef kebab">
+						<h3 id="dish-1-name">Al-Kom Mixed Grill</h3>
+						<p>Lamb kofta, chicken shish taouk, and beef kebab, charcoal-grilled and served with sumac onions and garlic toum.</p>
+						<p class="price">$34</p>
+						<ul class="badge-list" aria-label="Dietary information">
+							<li class="badge badge-chefs-choice">Chef's Choice</li>
+						</ul>
+					</article>
+				</li>
+
+				<li class="menu-card">
+					<article aria-labelledby="dish-2-name">
+						<img src="assets/dish-muhammara.jpg" alt="Bowl of muhammara dip topped with walnuts and pomegranate molasses">
+						<h3 id="dish-2-name">Muhammara</h3>
+						<p>Roasted red pepper and walnut dip, sweetened with pomegranate molasses, served with warm flatbread.</p>
+						<p class="price">$12</p>
+						<ul class="badge-list" aria-label="Dietary information">
+							<li class="badge badge-vegetarian">Vegetarian</li>
+							<li class="badge badge-vegan">Vegan</li>
+						</ul>
+					</article>
+				</li>
+
+				<li class="menu-card">
+					<article aria-labelledby="dish-3-name">
+						<img src="assets/dish-sea-bass.jpg" alt="Whole grilled sea bass with lemon and fresh herbs">
+						<h3 id="dish-3-name">Grilled Sea Bass</h3>
+						<p>Whole Mediterranean sea bass grilled over charcoal, finished with lemon, olive oil, and fresh herbs.</p>
+						<p class="price">$38</p>
+						<ul class="badge-list" aria-label="Dietary information">
+							<li class="badge badge-gluten-free">Gluten-Free</li>
+						</ul>
+					</article>
+				</li>
+
+				<li class="menu-card">
+					<article aria-labelledby="dish-4-name">
+						<img src="assets/dish-mansaf.jpg" alt="Traditional mansaf with lamb, rice, and toasted almonds in a jameed sauce">
+						<h3 id="dish-4-name">Mansaf</h3>
+						<p>Slow-braised lamb in a fermented jameed yogurt sauce, served over saffron rice with toasted almonds and pine nuts.</p>
+						<p class="price">$36</p>
+						<ul class="badge-list" aria-label="Dietary information">
+							<li class="badge badge-chefs-choice">Chef's Choice</li>
+							<li class="badge badge-gluten-free">Gluten-Free</li>
+						</ul>
+					</article>
+				</li>
+
+				<li class="menu-card">
+					<article aria-labelledby="dish-5-name">
+						<img src="assets/dish-stuffed-vegetables.jpg" alt="Stuffed zucchini and grape leaves in tomato broth">
+						<h3 id="dish-5-name">Mahshi Assortment</h3>
+						<p>Zucchini and grape leaves stuffed with rice, tomato, and warm spices, simmered in a light tomato broth.</p>
+						<p class="price">$18</p>
+						<ul class="badge-list" aria-label="Dietary information">
+							<li class="badge badge-vegan">Vegan</li>
+							<li class="badge badge-gluten-free">Gluten-Free</li>
+						</ul>
+					</article>
+				</li>
+
+				<li class="menu-card">
+					<article aria-labelledby="dish-6-name">
+						<img src="assets/dish-knafeh.jpg" alt="Warm knafeh pastry with pistachio garnish and rose syrup">
+						<h3 id="dish-6-name">Knafeh Nabulsieh</h3>
+						<p>Warm shredded pastry layered with sweet cheese, soaked in rose syrup, and finished with crushed pistachio.</p>
+						<p class="price">$14</p>
+						<ul class="badge-list" aria-label="Dietary information">
+							<li class="badge badge-vegetarian">Vegetarian</li>
+						</ul>
+					</article>
+				</li>
+			</ul>
+		</section>
+
+		<!-- ============ MEET AL-KOM AI SECTION ============ -->
+		<section id="ai-concierge" class="ai-concierge" aria-labelledby="ai-concierge-heading">
+			<h2 id="ai-concierge-heading">Meet Al-Kom AI</h2>
+			<p class="section-intro">
+				Al-Kom AI is our digital concierge, available around the clock to help
+				you plan the perfect visit before you even walk through the door.
+			</p>
+
+			<ul class="ai-feature-grid">
+				<li class="ai-feature-card">
+					<h3>Reservations</h3>
+					<p>Check live table availability and book a reservation for any party size in seconds.</p>
+				</li>
+				<li class="ai-feature-card">
+					<h3>Menu Assistance</h3>
+					<p>Ask about ingredients, spice levels, or preparation methods for any dish on the menu.</p>
+				</li>
+				<li class="ai-feature-card">
+					<h3>Dietary Recommendations</h3>
+					<p>Get tailored suggestions for vegetarian, vegan, gluten-free, or allergen-conscious dining.</p>
+				</li>
+				<li class="ai-feature-card">
+					<h3>Opening Hours</h3>
+					<p>Confirm today's hours, holiday closures, and last-seating times instantly.</p>
+				</li>
+				<li class="ai-feature-card">
+					<h3>FAQ Assistance</h3>
+					<p>Get quick answers on parking, private dining, corkage fees, and group bookings.</p>
+				</li>
+			</ul>
+
+			<a href="#" class="button button-primary" role="button" aria-haspopup="dialog" aria-controls="ai-chat-widget">
+				Start Chatting with Al-Kom AI
+			</a>
+		</section>
+
+		<!-- ============ HOW IT WORKS SECTION ============ -->
+		<section id="how-it-works" class="how-it-works" aria-labelledby="how-it-works-heading">
+			<h2 id="how-it-works-heading">How It Works</h2>
+
+			<ol class="steps-list">
+				<li class="step-card">
+					<h3>1. Chat</h3>
+					<p>Open Al-Kom AI from any page and say hello, any time of day.</p>
+				</li>
+				<li class="step-card">
+					<h3>2. Ask</h3>
+					<p>Ask about dishes, dietary needs, hours, or anything else on your mind.</p>
+				</li>
+				<li class="step-card">
+					<h3>3. Reserve</h3>
+					<p>Confirm your table, party size, and preferred time in a single conversation.</p>
+				</li>
+				<li class="step-card">
+					<h3>4. Enjoy</h3>
+					<p>Arrive at Al-Kom and let our team take care of the rest.</p>
+				</li>
+			</ol>
+		</section>
+
+		<!-- ============ CUSTOMER TESTIMONIALS SECTION ============ -->
+		<section id="reviews" class="testimonials" aria-labelledby="reviews-heading">
+			<h2 id="reviews-heading">What Our Guests Say</h2>
+
+			<ul class="testimonial-grid">
+				<li class="testimonial-card">
+					<blockquote>
+						<p>"The mixed grill platter was the best I've had outside of Amman. The AI concierge even remembered my sister is gluten-free and flagged the right dishes before we arrived."</p>
+					</blockquote>
+					<figcaption>&mdash; Layla H., verified diner</figcaption>
+				</li>
+				<li class="testimonial-card">
+					<blockquote>
+						<p>"Booked a table for eight in under a minute using the chat widget. Service at Al-Kom matched the ease of the booking &mdash; genuinely warm and attentive."</p>
+					</blockquote>
+					<figcaption>&mdash; Marcus D., verified diner</figcaption>
+				</li>
+				<li class="testimonial-card">
+					<blockquote>
+						<p>"The knafeh alone is worth the visit. I asked the AI concierge about spice levels beforehand and it walked me through the whole menu."</p>
+					</blockquote>
+					<figcaption>&mdash; Farah S., verified diner</figcaption>
+				</li>
+			</ul>
+		</section>
+
+		<!-- ============ CONTACT SECTION ============ -->
+		<section id="contact" class="contact" aria-labelledby="contact-heading">
+			<h2 id="contact-heading">Visit Al-Kom</h2>
+
+			<div class="contact-details">
+				<address>
+					<p>
+						<strong>Address:</strong><br>
+						218 Cedar Grove Avenue<br>
+						Downtown District, Amman 11183
+					</p>
+					<p>
+						<strong>Phone:</strong>
+						<a href="tel:+19625551047">+962 6 555 1047</a>
+					</p>
+					<p>
+						<strong>Email:</strong>
+						<a href="mailto:reservations@alkom-restaurant.com">reservations@alkom-restaurant.com</a>
+					</p>
+				</address>
+
+				<div class="opening-hours">
+					<h3>Opening Hours</h3>
+					<table>
+						<caption class="visually-hidden">Al-Kom weekly opening hours</caption>
+						<thead>
+							<tr>
+								<th scope="col">Day</th>
+								<th scope="col">Hours</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">Monday &ndash; Thursday</th>
+								<td>5:00 PM &ndash; 11:00 PM</td>
+							</tr>
+							<tr>
+								<th scope="row">Friday &ndash; Saturday</th>
+								<td>1:00 PM &ndash; 12:00 AM</td>
+							</tr>
+							<tr>
+								<th scope="row">Sunday</th>
+								<td>1:00 PM &ndash; 10:00 PM</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+			<div class="contact-map">
+				<h3>Find Us</h3>
+				<iframe
+					title="Map showing Al-Kom restaurant location on Cedar Grove Avenue"
+					src="about:blank"
+					width="600"
+					height="400"
+					loading="lazy">
+				</iframe>
+			</div>
+		</section>
+
+	</main>
+
+	<!-- ============ FOOTER ============ -->
+	<footer class="site-footer">
+		<nav class="footer-nav" aria-label="Footer navigation">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#ai-concierge">AI Concierge</a></li>
+				<li><a href="#reviews">Reviews</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+
+		<ul class="social-links" aria-label="Al-Kom on social media">
+			<li>
+				<a href="https://www.instagram.com/" aria-label="Al-Kom on Instagram">
+					<img src="assets/icon-instagram.svg" alt="" width="24" height="24">
+				</a>
+			</li>
+			<li>
+				<a href="https://www.facebook.com/" aria-label="Al-Kom on Facebook">
+					<img src="assets/icon-facebook.svg" alt="" width="24" height="24">
+				</a>
+			</li>
+			<li>
+				<a href="https://www.tiktok.com/" aria-label="Al-Kom on TikTok">
+					<img src="assets/icon-tiktok.svg" alt="" width="24" height="24">
+				</a>
+			</li>
+		</ul>
+
+		<p class="copyright">&copy; 2026 Al-Kom Restaurant. All rights reserved.</p>
+	</footer>
+
+	<!-- ============ FLOATING AI CHAT WIDGET (UI ONLY) ============ -->
+	<section id="ai-chat-widget" class="ai-chat-widget" aria-labelledby="ai-chat-heading">
+		<header class="ai-chat-header">
+			<img src="assets/ai-avatar-placeholder.png" alt="" class="ai-avatar" width="40" height="40">
+			<h2 id="ai-chat-heading">Al-Kom AI Concierge</h2>
+			<button type="button" aria-label="Close chat window">&times;</button>
+		</header>
+
+		<p class="ai-welcome-message">
+			Marhaba! I'm the Al-Kom AI concierge. Ask me about reservations, our menu, dietary options, or opening hours.
+		</p>
+
+		<ul class="suggested-questions" aria-label="Suggested questions">
+			<li><button type="button">Reserve a table for tonight</button></li>
+			<li><button type="button">What are your vegan options?</button></li>
+			<li><button type="button">What time do you open?</button></li>
+			<li><button type="button">Do you have gluten-free dishes?</button></li>
+		</ul>
+
+		<div class="ai-chat-messages" role="log" aria-live="polite" aria-label="Chat conversation">
+			<p class="chat-message chat-message-ai">
+				<span class="chat-sender">Al-Kom AI:</span> Marhaba! How can I help you plan your visit today?
+			</p>
+		</div>
+
+		<form class="ai-chat-form" action="#" method="post">
+			<label for="ai-chat-input" class="visually-hidden">Type your message to Al-Kom AI</label>
+			<input type="text" id="ai-chat-input" name="ai-chat-input" placeholder="Type your message&hellip;" autocomplete="off">
+			<button type="submit">Send</button>
+		</form>
+	</section>
+
+	<script src="script.js"></script>
+</body>
+</html>
